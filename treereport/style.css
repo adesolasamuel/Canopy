@@ -12,14 +12,14 @@ header {
 
 #report-form {
     max-width: 500px;
-    margin: 20px auto; /* Centers the form */
+    margin: 20px auto; 
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
 
 #report-form label {
-    display: block; /* Makes labels stack above input fields */
+    display: block; 
     margin-bottom: 5px;
 }
 

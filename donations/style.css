@@ -1,4 +1,4 @@
-/* General Styles */
+
 #donation-section {
     text-align: center;
     margin: 40px;
@@ -6,8 +6,8 @@
 }
 
 #donation-options {
-    display: flex; /* Arranges options in a row (adjust if needed) */
-    justify-content: space-around; /* Distribute options with spacing */
+    display: flex; 
+    justify-content: space-around; 
     margin-bottom: 20px;
     background-color: #f0f0f0;
     border: none;
@@ -17,13 +17,13 @@
 }
 
 .donation-option:hover {
-    background-color: #4CAF50; /* Example highlight color */
+    background-color: #4CAF50; 
     color: white;
  }
 
-/* Donation Option Styling - Example */
+
 #donation-options .donation-option {
-    width: 200px; /* Adjust width as needed */
+    width: 200px; 
     border: 1px solid #ddd;
     padding: 15px;
     margin: 10px;
@@ -37,10 +37,10 @@
 }
 
 #donation-form {
-    max-width: 500px; /* Adjust the width as needed */
-    margin: 40px auto; /* Centers the entire form  */
+    max-width: 500px; 
+    margin: 40px auto; 
     padding: 20px;
-    text-align: center; /* Centers elements inside the form */
+    text-align: center; 
 }
 
 #donation-form input {
@@ -53,7 +53,7 @@
 }
 
 #donation-form button[type="submit"] {
-    background-color: #4CAF50; /* Example green color */
+    background-color: #4CAF50; 
     color: white;
     border: none;
     padding: 15px 30px; 
@@ -62,11 +62,11 @@
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 5px;  /* Slightly rounded corners */
+    border-radius: 5px;  
     transition: background-color 0.3s;
 }
 
 #donation-form button[type="submit"]:hover {
-    background-color: #408040; /* Darker green on hover */
+    background-color: #408040; 
 }
 

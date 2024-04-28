@@ -13,7 +13,7 @@ header {
 
 main {
     max-width: 900px;
-    margin: 20px auto; /* Centers the main content */
+    margin: 20px auto; 
 }
 
 table {
@@ -33,7 +33,7 @@ section {
 }
 
 h2 {
-    margin-top: 0; /* Reduce default heading space */
+    margin-top: 0; 
     color: #333;
 } 
 
