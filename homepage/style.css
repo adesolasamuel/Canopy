@@ -59,6 +59,35 @@ nav li a:hover {
     transform: scale(1.1); /* Zoom in */
 }
 
+.hover-effect {
+    position: relative;
+}
+
+.hover-effect img {
+    width: 100%;
+    transition: opacity 0.3s ease;
+}
+
+.hover-effect .hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.hover-effect:hover img {
+    opacity: 0.9;
+}
+
+.hover-effect:hover .hover-text {
+    opacity: 1;
+}
+
 .content {
     display: flex;
     justify-content: space-between;
